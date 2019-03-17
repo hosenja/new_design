@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GroupCollectionCell" customModule="Snapgroup" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="66K-eE-ubL">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-default" translatesAutoresizingMaskIntoConstraints="NO" id="9c0-uO-zGf">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cha Cha Snapgroupasd asd;lk asd;lk asd" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBQ-4U-b7Y">
+                            <rect key="frame" x="10" y="10" width="355" height="16"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                            </variation>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bqS-vf-n0Y">
+                            <rect key="frame" x="315" y="612" width="50" height="25"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sale" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pSj-Ra-gFO">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="25"/>
+                                    <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="14"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.12156862745098039" green="0.3529411764705882" blue="0.59215686274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="pSj-Ra-gFO" secondAttribute="trailing" id="HJW-db-7LK"/>
+                                <constraint firstItem="pSj-Ra-gFO" firstAttribute="leading" secondItem="bqS-vf-n0Y" secondAttribute="leading" id="LKE-9C-IpE"/>
+                                <constraint firstAttribute="width" constant="50" id="e7v-Ea-NyE"/>
+                                <constraint firstItem="pSj-Ra-gFO" firstAttribute="top" secondItem="bqS-vf-n0Y" secondAttribute="top" id="nrf-YX-9o5"/>
+                                <constraint firstAttribute="height" constant="25" id="oWh-g4-F2D"/>
+                                <constraint firstAttribute="bottom" secondItem="pSj-Ra-gFO" secondAttribute="bottom" id="uEE-kz-g8d"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17 Dec 2018" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Dw-CE-RX0">
+                            <rect key="frame" x="10" y="621" width="80.5" height="16"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                            </variation>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="bqS-vf-n0Y" secondAttribute="bottom" constant="10" id="F1t-Zx-TT8"/>
+                        <constraint firstAttribute="trailing" secondItem="GBQ-4U-b7Y" secondAttribute="trailing" constant="10" id="Fjb-Xs-JRf"/>
+                        <constraint firstAttribute="bottom" secondItem="8Dw-CE-RX0" secondAttribute="bottom" constant="10" id="GPR-96-yU6"/>
+                        <constraint firstItem="GBQ-4U-b7Y" firstAttribute="leading" secondItem="66K-eE-ubL" secondAttribute="leading" constant="10" id="YfR-tL-rFO"/>
+                        <constraint firstItem="9c0-uO-zGf" firstAttribute="leading" secondItem="66K-eE-ubL" secondAttribute="leading" id="cU3-vy-oV8"/>
+                        <constraint firstItem="9c0-uO-zGf" firstAttribute="top" secondItem="66K-eE-ubL" secondAttribute="top" id="d22-wM-IIN"/>
+                        <constraint firstItem="8Dw-CE-RX0" firstAttribute="leading" secondItem="66K-eE-ubL" secondAttribute="leading" constant="10" id="eFd-to-YNy"/>
+                        <constraint firstAttribute="trailing" secondItem="bqS-vf-n0Y" secondAttribute="trailing" constant="10" id="mg7-1x-jMk"/>
+                        <constraint firstItem="GBQ-4U-b7Y" firstAttribute="top" secondItem="66K-eE-ubL" secondAttribute="top" constant="10" id="oyN-39-HNU"/>
+                        <constraint firstAttribute="trailing" secondItem="9c0-uO-zGf" secondAttribute="trailing" id="srf-9p-dA7"/>
+                        <constraint firstItem="9c0-uO-zGf" firstAttribute="height" secondItem="66K-eE-ubL" secondAttribute="height" id="w5a-3Y-qX6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="66K-eE-ubL" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="4Z2-ip-tN3"/>
+                <constraint firstAttribute="trailing" secondItem="66K-eE-ubL" secondAttribute="trailing" id="nCN-42-Emx"/>
+                <constraint firstAttribute="bottom" secondItem="66K-eE-ubL" secondAttribute="bottom" id="ngw-Fn-EcS"/>
+                <constraint firstItem="66K-eE-ubL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rbm-uY-sxR"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="group_date" destination="8Dw-CE-RX0" id="4r8-PL-uzQ"/>
+                <outlet property="group_image" destination="9c0-uO-zGf" id="80S-jN-ZZR"/>
+                <outlet property="group_label" destination="GBQ-4U-b7Y" id="dfb-fv-mbo"/>
+                <outlet property="saleView" destination="bqS-vf-n0Y" id="UQ1-c1-3il"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="img-default" width="1243" height="681"/>
+    </resources>
+</document>

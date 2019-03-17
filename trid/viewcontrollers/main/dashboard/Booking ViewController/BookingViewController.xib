@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BookingViewController" customModule="Snapgroup" customModuleProvider="target">
+            <connections>
+                <outlet property="bootomConstarate" destination="xhE-vf-Sht" id="l4e-XS-xOg"/>
+                <outlet property="coverWebView" destination="Ike-ZU-kUi" id="1Gb-Xg-L3S"/>
+                <outlet property="progress" destination="Wdg-Ru-ag1" id="HnX-Fe-qjE"/>
+                <outlet property="topConstrate" destination="EB3-GF-t54" id="eYD-SS-J5E"/>
+                <outlet property="view" destination="iN0-l3-epB" id="e2e-Ww-5VR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nuv-BZ-C8w">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ike-ZU-kUi">
+                            <rect key="frame" x="5" y="10" width="365" height="647"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Wdg-Ru-ag1">
+                            <rect key="frame" x="169" y="315" width="37" height="37"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="37" id="4lA-lQ-rw8"/>
+                                <constraint firstAttribute="width" constant="37" id="vmT-Tl-5yk"/>
+                            </constraints>
+                            <color key="color" red="0.1215686275" green="0.35294117650000001" blue="0.59215686270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Wdg-Ru-ag1" firstAttribute="centerX" secondItem="Nuv-BZ-C8w" secondAttribute="centerX" id="L3X-8y-dOc"/>
+                        <constraint firstAttribute="trailing" secondItem="Ike-ZU-kUi" secondAttribute="trailing" constant="5" id="LiJ-nT-jwl"/>
+                        <constraint firstAttribute="bottom" secondItem="Ike-ZU-kUi" secondAttribute="bottom" constant="10" id="MOE-7W-5Fd"/>
+                        <constraint firstItem="Wdg-Ru-ag1" firstAttribute="centerY" secondItem="Nuv-BZ-C8w" secondAttribute="centerY" id="XLX-Oh-c4G"/>
+                        <constraint firstItem="Ike-ZU-kUi" firstAttribute="leading" secondItem="Nuv-BZ-C8w" secondAttribute="leading" constant="5" id="aRR-p9-A6U"/>
+                        <constraint firstItem="Ike-ZU-kUi" firstAttribute="top" secondItem="Nuv-BZ-C8w" secondAttribute="top" constant="10" id="dF7-FX-Jhv"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Nuv-BZ-C8w" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EB3-GF-t54"/>
+                <constraint firstItem="Nuv-BZ-C8w" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="RSm-E0-qTU"/>
+                <constraint firstItem="Nuv-BZ-C8w" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="gnw-nA-vSl"/>
+                <constraint firstAttribute="bottom" secondItem="Nuv-BZ-C8w" secondAttribute="bottom" id="xhE-vf-Sht"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="39.200000000000003" y="46.326836581709152"/>
+        </view>
+    </objects>
+</document>

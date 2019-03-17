@@ -1,0 +1,6 @@
+framework module Pods_Snapgroup {
+  umbrella header "Pods-Snapgroup-umbrella.h"
+
+  export *
+  module * { export * }
+}
